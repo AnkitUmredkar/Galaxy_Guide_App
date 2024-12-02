@@ -63,6 +63,8 @@ class MyPlanetCard extends StatelessWidget {
                       shape: BoxShape.circle,
                     ),
                     child: Hero(
+
+
                       tag: "Planet $index",
                       child: ModelViewer(
                         autoRotate: true,
