@@ -29,7 +29,7 @@ class MyPlanetCard extends StatelessWidget {
             alignment: Alignment.bottomRight,
             child: Container(
               width: double.infinity,
-              padding: EdgeInsets.fromLTRB(16, size.height * 0.148, 16, 31.5),
+              padding: const EdgeInsets.fromLTRB(16,101, 16, 43), // size.height * 0.145
               alignment: Alignment.topLeft,
               margin: EdgeInsets.only(bottom: 22, top: size.height * 0.12),
               decoration: BoxDecoration(
@@ -62,18 +62,13 @@ class MyPlanetCard extends StatelessWidget {
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                     ),
-                    child: Hero(
-
-
-                      tag: "Planet $index",
-                      child: ModelViewer(
-                        autoRotate: true,
-                        backgroundColor: Colors.transparent,
-                        src: planet.model,
-                        alt: 'A 3D model of an astronaut',
-                        disableZoom: true,
-                        interactionPrompt: InteractionPrompt.none,
-                      ),
+                    child: ModelViewer(
+                      autoRotate: true,
+                      backgroundColor: Colors.transparent,
+                      src: planet.model,
+                      alt: 'A 3D model of an astronaut',
+                      disableZoom: true,
+                      interactionPrompt: InteractionPrompt.none,
                     ),
                   );
                 } else {
@@ -84,7 +79,6 @@ class MyPlanetCard extends StatelessWidget {
               },
             ),
           ),
-
           //todo ----> go to Details page button
           Align(
             alignment: Alignment.bottomCenter,
