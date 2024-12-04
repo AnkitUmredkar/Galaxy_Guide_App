@@ -52,5 +52,5 @@
 <h1 align="center"> 🌜 Liked Planets 🌜 </h1>
 
 <div align="center">
-  <img height="550" src="https://github.com/user-attachments/assets/d2af3ea9-d49d-443e-978d-19319126610b"/>
+  <img height="550" src="https://github.com/user-attachments/assets/0a24bf26-c5d9-471c-8a7f-7bb8164fd38c"/>
 </div>
